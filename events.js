@@ -7,7 +7,7 @@ document.querySelector("#innerchild").addEventListener("click",function() {
 
 document.querySelector("#child").addEventListener("click",function() {
   console.log("I am " + event.currentTarget.id);
-}, true); // paased true to catch an event in capturing phase
+}, true); // passed true to catch an event in capturing phase
 
 document.querySelector("#parent").addEventListener("click",function() {
   console.log("I am " + event.currentTarget.id);
